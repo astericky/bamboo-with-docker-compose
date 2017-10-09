@@ -1,0 +1,8 @@
+.dockerignore
+.git/
+.idea/
+*.iml
+Dockerfile
+docker-compose.yml
+volume/
+Readme.md
