@@ -6,7 +6,6 @@ services:
       context: .
     volumes:
       - /var/atlassian/bamboo:/var/atlassian/bamboo
-    environment:
-      - DOCKER_HOST=http://172.17.0.1:2376
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 8085:8085
