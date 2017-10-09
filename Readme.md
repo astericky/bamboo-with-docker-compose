@@ -4,8 +4,8 @@ Expose docker API on `172.17.0.1:2376` or change `DOCKER_HOST` in `docker-compos
 
 Create volume with proper permissions:
 
-    mkdir volume
-    chmod a+rwx volume
+    mkdir -p /var/atlassian/bamboo
+    chmod a+rwx /var/atlassian/bamboo
     
 Start bamboo container:
 
