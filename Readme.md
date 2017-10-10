@@ -28,3 +28,5 @@ waiting for dependencies like ElastiSsearch or Mongo.
 * Final tasks
     * Mocha Test Parser configuration (Testfile pattern: mocha.json, Working subdirectory: output)
     * Cleanup containers (command: docker-compose, argument: down)
+    
+You can find sample project compatible with this setup here https://github.com/blabno/bamboo-sample-project.
